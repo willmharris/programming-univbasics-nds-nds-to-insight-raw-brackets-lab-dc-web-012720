@@ -3,8 +3,13 @@ require 'directors_database'
 
 def directors_totals(nds)
   result = {}
-  # while loop for directors 
-  #director_name = nds[director_number][:name]
+  director_number = 0 
+  director_name = "default"
+  while director_number < nds.length do 
+    director_name = nds[director_number][:name]
+    director_number += 1 
+  end 
+  
   # total_gross = 0 
     #while loop for films 
   #result[director_name] = total_gross
