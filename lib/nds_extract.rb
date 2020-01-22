@@ -5,12 +5,12 @@ def directors_totals(nds)
   result = {}
   director_number = 0 
   director_name = "default"
-  total_gross = 0 
   while director_number < nds.length do 
     director_name = nds[director_number][:name]
     film_number = 0 
     while film_number < nds[director_number][:movies].length do 
-      total_gross = nds[director_number][:movies][film_number][:]
+      total_gross = 0 
+      total_gross += nds[director_number][:movies][film_number][:worldwide_gross]
     end 
     director_number += 1 
   end 
