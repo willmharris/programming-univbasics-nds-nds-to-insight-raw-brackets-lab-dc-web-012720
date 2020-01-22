@@ -46,5 +46,4 @@ test_array = [{:name=>"Stephen Spielberg",
      :studio=>"Buena Vista",
      :worldwide_gross=>182207973,
      :release_year=>2012}]}]
-  p test_array 
   
