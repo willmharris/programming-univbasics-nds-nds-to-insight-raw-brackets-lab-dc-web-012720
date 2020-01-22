@@ -5,8 +5,10 @@ def directors_totals(nds)
   result = {}
   director_number = 0 
   director_name = "default"
+  total_gross = 0 
   while director_number < nds.length do 
     director_name = nds[director_number][:name]
+    total_gross = nds[director_number]
     director_number += 1 
   end 
   
