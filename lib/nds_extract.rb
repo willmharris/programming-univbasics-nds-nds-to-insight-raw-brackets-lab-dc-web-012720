@@ -47,3 +47,4 @@ test_array = [{:name=>"Stephen Spielberg",
      :worldwide_gross=>182207973,
      :release_year=>2012}]}]
   
+  directors_totals(test_array)
