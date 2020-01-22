@@ -13,14 +13,9 @@ def directors_totals(nds)
       total_gross += nds[director_number][:movies][film_number][:worldwide_gross]
       film_number += 1 
     end 
-    result[director_name] 
+    result[director_name] = total_gross
     director_number += 1 
   end 
-  
-  
-  #result[director_name] = total_gross
 p result 
-  
-  #nil
+#nil
 end
-# Use loops, variables and the accessing method, [], to loop through the NDS and total up all the Be sure to return the result at the end!
