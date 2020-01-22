@@ -8,7 +8,9 @@ def directors_totals(nds)
   total_gross = 0 
   while director_number < nds.length do 
     director_name = nds[director_number][:name]
-    total_gross = nds[director_number]
+    while asdf do 
+      total_gross = nds[director_number][:movies][]
+    end 
     director_number += 1 
   end 
   
